@@ -1,0 +1,208 @@
+body{
+	background-image: url("yearupbackground.jpg");
+	background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+	margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+   
+}
+button {
+  width: 100px;
+  height: 30px;
+  border: 3px soldi white;
+  border-radius: 50px;
+  background: #202020;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+HTML CSS JS 
+
+Result
+Skip Results Iframe
+
+body {
+width: 500px;
+margin: 4% auto;
+font-family: 'Source Sans Pro', sans-serif;
+letter-spacing: 5px;
+font-size: 1.8rem;
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+.calculator {
+padding: 20px;
+-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+border-radius: 1px;
+}
+
+.input {
+border: 1px solid #ddd;
+border-radius: 1px;
+height: 60px;
+padding-right: 15px;
+padding-top: 10px;
+text-align: right;
+margin-right: 6px;
+font-size: 2.5rem;
+overflow-x: auto;
+transition: all .2s ease-in-out;
+}
+
+.input:hover {
+border: 1px solid #bbb;
+-webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.buttons {
+display:inline-block;
+padding:0.7em 1.7em;
+margin:0 0.3em 0.3em 0;
+border-radius:0.2em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color:#ce9292;
+background-color:#3369ff;
+box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+text-align:center;
+position:relative;
+}
+
+.operators {}
+
+.operators div {
+display: inline-block;
+border: 1px solid #bbb;
+border-radius: 1px;
+width: 80px;
+text-align: center;
+padding: 10px;
+margin: 20px 4px 10px 0;
+cursor: pointer;
+background-color: #ddd;
+transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.operators div:hover {
+background-color: #ddd;
+-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+border-color: #aaa;
+}
+
+.operators div:active {
+font-weight: bold;
+}
+
+.leftPanel {
+display: inline-block;
+}
+
+.numbers div {
+display: inline-block;
+border: 1px solid #ddd;
+border-radius: 1px;
+width: 80px;
+text-align: center;
+padding: 10px;
+margin: 10px 4px 10px 0;
+cursor: pointer;
+background-color: #f9f9f9;
+transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.numbers div:hover {
+background-color: #f1f1f1;
+-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+border-color: #bbb;
+}
+
+.numbers div:active {
+font-weight: bold;
+}
+
+div.equal {
+display: inline-block;
+border: 1px solid #3079ED;
+border-radius: 1px;
+width: 17%;
+text-align: center;
+padding: 127px 10px;
+margin: 10px 6px 10px 0;
+vertical-align: top;
+cursor: pointer;
+color: #FFF;
+background-color: #4d90fe;
+transition: all .2s ease-in-out;
+}
+
+div.equal:hover {
+background-color: #307CF9;
+-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+border-color: #1857BB;
+}
+
+div.equal:active {
+font-weight: bold;
+}
+
+
+#nav{
+  position: sticky;
+  top: 0;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+.content {
+  text-align: center;
+   position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: white;
+  background-color:rgba(0,0,0,0.5);
+  width:50%;
+border-radius: 10px;
+}
+
