@@ -1,10 +1,4 @@
 
-
-    HTML CSS JS 
-
-    Result
-    Skip Results Iframe
-
 "use strict";
 
 var input = document.getElementById('input'), // input/output button
