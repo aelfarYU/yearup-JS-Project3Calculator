@@ -84,14 +84,16 @@ position:relative;
 
 .operators div {
 display: inline-block;
-border: 1px solid #bbb;
+border: 1px solid rgb(255, 162, 162);
 border-radius: 1px;
 width: 80px;
 text-align: center;
+font-weight: bold;
+color:white;
 padding: 10px;
 margin: 20px 4px 10px 0;
 cursor: pointer;
-background-color: #ddd;
+background-color: rgb(252, 84, 84);
 transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
 }
 
